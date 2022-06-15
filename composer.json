@@ -1,0 +1,22 @@
+{
+    "name": "ibrahim/mvc-course",
+    "autoload": {
+        "psr-4": {
+            "Ibrahim\\MvcCourse\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ibrahimmalii",
+            "email": "eng.ibrahimmalii@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.4",
+        "symfony/var-dumper": "^6.0"
+    },
+    "autoload": {
+        "App\\": "App",
+        "ibrahim\\": "src"
+    }
+}
