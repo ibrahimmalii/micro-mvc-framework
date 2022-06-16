@@ -2,7 +2,8 @@
     "name": "ibrahim/mvc-course",
     "autoload": {
         "psr-4": {
-            "Ibrahim\\MvcCourse\\": "src/"
+            "App\\": "App",
+            "ibrahim\\": "src/"
         }
     },
     "authors": [
@@ -14,9 +15,5 @@
     "require": {
         "vlucas/phpdotenv": "^5.4",
         "symfony/var-dumper": "^6.0"
-    },
-    "autoload": {
-        "App\\": "App",
-        "ibrahim\\": "src"
     }
 }
